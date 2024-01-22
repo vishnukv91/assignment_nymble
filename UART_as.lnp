@@ -1,0 +1,4 @@
+--device DARMP1 "startup_lpc17xx.o" "uart_as.o" --strict --scatter "UART_as.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\UART_as.map" -o "UART_as.axf"

@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'UART_as_rx.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup_lpc17xx.o"'
+### List of Objects: adding '"uart_as_rx.o"'
+### ADS-LD Command completed:
+--device DARMP1 "startup_lpc17xx.o" "uart_as_rx.o" --strict --scatter "UART_as_rx.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\UART_as_rx.map" -o "UART_as_rx.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'UART_as_rx.axf'
+### ADS-LD Command File: 'UART_as_rx.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'UART_as_rx.lnp', Handle=0x00000CFC
+### Writing '.lnp' file
+### ADS-LD Command file 'UART_as_rx.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
